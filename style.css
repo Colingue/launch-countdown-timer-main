@@ -44,6 +44,9 @@ body{
     justify-content: space-between;
     width: 630px;
     margin-top: 100px;
+    opacity: 0;
+    background: transparent;
+    transition: opacity 2s;
 }
 
 .fiche{
@@ -100,7 +103,7 @@ body{
 }
 
 .fiche span{
-    font-size: 70px;
+    font-size: 74px;
     color: hsl(345, 95%, 68%);
 }
 
@@ -112,7 +115,7 @@ body{
 .media{
     display: flex;
     margin: auto;
-    margin-top: 270px;
+    margin-top: 192px;
     width: 130px;
     justify-content: space-between;
 }
