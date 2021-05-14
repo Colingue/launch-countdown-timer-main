@@ -4,7 +4,6 @@ body{
     background: hsl(235, 16%, 14%);
     margin: 0;
     overflow: hidden;
-    position: relative;
     text-transform: uppercase;
     font-family: Red Hat Text;
     text-align: center;
@@ -13,7 +12,6 @@ body{
 
 .background{
     background: url("images/bg-stars.svg");
-    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -123,4 +121,45 @@ body{
 .media a svg path:hover{
     fill: hsl(345, 95%, 68%);
     transition: 0.1s;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        overflow: hidden;
+    }
+
+    .fiche{
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .fiche span{
+        font-size: 40px;
+    }
+
+    .unit{
+        font-size: 6px;
+        letter-spacing: 6px;
+    }
+
+    .chrono{
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .montaign img{
+        width: 300%;
+    }
+
+    .media{
+        position: absolute;
+        width: 121px;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 68px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
