@@ -20,10 +20,8 @@ body{
     position: absolute;
     bottom: 0;
     z-index: -1;
-}
-
-.montaign img{
     width: 100%;
+    left: 0;
 }
 
 .title{
